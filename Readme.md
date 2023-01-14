@@ -1,0 +1,1 @@
+This function takes the image file and password as input, generates a random salt, derives the key and initialization vector using PBKDF2 with the password and salt, reads the image file, encrypts the plaintext using AES-256 in CBC mode, and writes the salt and ciphertext to a new file with '.enc' appended to the original file name.
